@@ -31,7 +31,7 @@ h2 a{
 }
 
 .center{
-    max-width: 1200px;
+    max-width: 930px;
     margin: 0 auto;
 }
 
@@ -44,14 +44,14 @@ header{
 }
 
 .logo{
-    padding: 15px 5%;
+    padding: 15px 2%;
     float: left;
     color: white;
 }
 
 form.form-login{
     float: right;
-    padding: 0 10%;
+    padding: 0 5%;
 }
 
 table{
@@ -108,7 +108,7 @@ main{
 }
 
 .content-main{
-    padding-left: 5%;
+    padding-left: 1%;
 }
 .content-main span{
     position: relative;
@@ -126,7 +126,7 @@ main{
     text-align: left;
     width: 400px;
     position: relative;
-    left: 1%;
+    left:1%;
     font-size: 30px;
 }
 
@@ -182,5 +182,18 @@ form.criarConta input[type=password]{
     font-size: 20px;
     border-radius: 5px;
     padding-left: 10px;
+    border: 0.01px solid rgba(0, 0, 255, 0.178);
+}
+
+form.born h4{
+    float: right;
+}
+
+form select.aniversario{
+    word-spacing: inherit;
+    display: inline-block;
+    height: 30px;
+    padding: 5px;
+    font-size: 13px;
     border: 0.01px solid rgba(0, 0, 255, 0.178);
 }
