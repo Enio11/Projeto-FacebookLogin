@@ -31,7 +31,7 @@ h2 a{
 }
 
 .center{
-    max-width: 930px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -125,14 +125,13 @@ main{
     padding: 30px 0;
     text-align: left;
     width: 400px;
-    position: relative;
-    left:1%;
     font-size: 30px;
 }
 
+/* Form Style */
+
 .abrirConta{
-    width: 45%;
-    float: right;
+    margin-left: 100px;
 }
 
 .abrirConta h2{
@@ -141,20 +140,17 @@ main{
 }
 
 .abrirConta p{
-    margin: 1%;
     color: rgb(88, 88, 88);
     font-size: 20px;
 }
 
 .w50{
     width: 50%;
-    padding: 0 5px;
     float: left;
 }
 
 .w100{
     width: 100%;
-    padding: 0 5px;
     float: left;
 }
 
@@ -196,4 +192,8 @@ form select.aniversario{
     padding: 5px;
     font-size: 13px;
     border: 0.01px solid rgba(0, 0, 255, 0.178);
+}
+
+.separado{
+    display: flex;
 }
