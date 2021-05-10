@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: SFPro;
+    font-size: 17px;
+    
+}
+
+@font-face{
+    font-family: KlakivaFont;
+    src: url("../font/klavika-bold.otf");
+}
+
+@font-face{
+    font-family: SFPro;
+    src: url("../font/SF-Pro-Regular.ttf");
+}
+
+h2 a{
+    font-family: KlakivaFont;
+    font-size: 50px;
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 10px;  
+}
+
+footer .center a{
+    margin-top: 10px;
+    color: rgba(0, 69, 160, 0.671);
+    font-weight: 100;
+    font-size: 12px;
+}
+
+footer .center a:hover {
+    color: rgb(175, 175, 175);
+}
+
+.linha {
+    border: 0.2px solid rgb(231, 231, 231);
+    text-align: center;
+    margin-top: 5px;
+    width: 1000px;
+}
+
+.table p{
+    margin: 0 5px;
+}
